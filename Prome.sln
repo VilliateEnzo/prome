@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prome", "Prome\Prome.csproj", "{9EBEC0C1-F96F-45FC-A12A-5B1421F41EEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EBEC0C1-F96F-45FC-A12A-5B1421F41EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EBEC0C1-F96F-45FC-A12A-5B1421F41EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EBEC0C1-F96F-45FC-A12A-5B1421F41EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EBEC0C1-F96F-45FC-A12A-5B1421F41EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
