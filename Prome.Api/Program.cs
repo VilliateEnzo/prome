@@ -1,3 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using Prone.Bll.Interfaces;
+using Prone.Bll.Services;
+using Prone.Dal.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +11,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<DataContext>(
+    o => o.UseNpgsql(builder.Configuration.GetConnectionString("PromeDb"))
+);
+builder.Services.AddScoped<ITokenService, TokenService>();
 
 var app = builder.Build();
 

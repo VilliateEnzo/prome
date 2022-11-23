@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prome", "Prome\Prome.csproj", "{9EBEC0C1-F96F-45FC-A12A-5B1421F41EEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prome.Api", "Prome.Api\Prome.Api.csproj", "{9EBEC0C1-F96F-45FC-A12A-5B1421F41EEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prone.DataAccess", "Prone.DataAccess\Prone.DataAccess.csproj", "{8A67781C-B037-4FEA-A382-D047A52DEC93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prone.Bll", "Prone.Bll\Prone.Bll.csproj", "{84F06406-850E-4FD1-8EFA-534DAC7E3C29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +16,13 @@ Global
 		{9EBEC0C1-F96F-45FC-A12A-5B1421F41EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EBEC0C1-F96F-45FC-A12A-5B1421F41EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EBEC0C1-F96F-45FC-A12A-5B1421F41EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A67781C-B037-4FEA-A382-D047A52DEC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A67781C-B037-4FEA-A382-D047A52DEC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A67781C-B037-4FEA-A382-D047A52DEC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A67781C-B037-4FEA-A382-D047A52DEC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F06406-850E-4FD1-8EFA-534DAC7E3C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F06406-850E-4FD1-8EFA-534DAC7E3C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F06406-850E-4FD1-8EFA-534DAC7E3C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F06406-850E-4FD1-8EFA-534DAC7E3C29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
